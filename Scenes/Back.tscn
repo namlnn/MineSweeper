@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/ClickableLabel.gd" type="Script" id=1]
+
+[node name="Back" type="Label"]
+margin_top = 403.0
+margin_right = 1024.0
+margin_bottom = 440.0
+mouse_filter = 1
+text = "Back"
+align = 1
+valign = 1
+script = ExtResource( 1 )
+scene_path = "res://Scenes/Menu.tscn"
